@@ -1,16 +1,32 @@
-# android_studio_first_flutter
 
-A new Flutter project.
+# Color Speech App
+Color Speech App is a Flutter-based mobile application that allows users to change the app's background color by speaking the name of a color. The app utilizes speech recognition to interpret user input and text-to-speech (TTS) to confirm the recognized color or provide feedback when the color is not recognized.
 
-## Getting Started
+# Features
+Speech Recognition: Recognizes spoken color names using the speech_to_text package.
 
-This project is a starting point for a Flutter application.
+Text-to-Speech Feedback: Provides verbal feedback on the recognized color or error messages using the flutter_tts package.
 
-A few resources to get you started if this is your first Flutter project:
+Dynamic Background Color: Changes the app's background to the recognized color.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Responsive UI: Displays a glowing microphone button while listening for speech input.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+# Installation
+## Clone the Repository
+Clone this repository to your local machine using:
+
+git clone <repository-url>
+
+## Install Flutter
+Ensure you have Flutter installed. If not, follow the Flutter installation guide.
+
+## Install Dependencies
+Navigate to the project directory and run:
+
+flutter pub get
+
+## Run the App
+Connect a physical device or emulator and run:
+
+flutter run
